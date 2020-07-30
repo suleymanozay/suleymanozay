@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 18px;
 }
 /* About Sections */
-.about-section {
+.Instinct-section {
   background-color: #e3dfc8;
   color: #96bb7c;
   padding: 7% 15% 0;
@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
   text-align: center;
 }
-#about{
+#Instinct{
   text-align: center;
 
 }
@@ -43,16 +43,14 @@ text-align: center;
   margin-right: auto;
   width: 40%;
 }
-.goal{
+.main{
   font-size: 1.5rem;
   padding: 3% ;
   line-height: 1.0;
   font-style: italic;
 }
 /* Goals Sections */
-.resume-section{
-background-color: #f5f1da;
-}
+
 .container-fluid{
   padding: 7% 15% 3%;
 }
@@ -84,8 +82,13 @@ background-color: #f5f1da;
   width: 7%;
   margin: 15px;
 }
-
-
+/* Console JAvaCode */
+#console{
+  background-color: #f5f1da;
+}
+.btn{
+    margin: 20px;
+}
 
 
 @media (max-width: 1028px) {
