@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-light{
   background-color: #96bb7c;
 }
+.nav-link {
+  font-size: 1.6rem;
+  font-family: "Montserrat-Light",sans-serif;
+}
 
 .nav-item {
   padding: 0 18px;
@@ -25,18 +29,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #96bb7c;
   padding: 7% 15% 0;
   padding-bottom: 1%;
+
 }
 
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.0rem;
   line-height: 1.5;
   text-align: center;
 }
-#Instinct{
+.goal{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.5;
   text-align: center;
 
 }
+
 .pro-image{
 text-align: center;
   margin-left: auto;
@@ -53,6 +62,7 @@ text-align: center;
 
 .container-fluid{
   padding: 7% 15% 3%;
+  text-align: center;
 }
 
 
@@ -64,15 +74,13 @@ text-align: center;
   font-size: 1.5rem;
   padding-top: 6%;
 }
-
-#skills{
+.skills-section{
   background-color: #eebb4d;
 }
 
 .container-skill{
   padding: 5% 10%;
 }
-
 
 .skills-text {
   font-size: 2.5rem;
@@ -82,13 +90,27 @@ text-align: center;
   width: 7%;
   margin: 15px;
 }
-/* Console JAvaCode */
-#console{
+/*  JAvaCode */
+.javaCode{
   background-color: #f5f1da;
 }
 .btn{
     margin: 20px;
 }
+/* contact */
+.thankyou_message{
+  background-color: #eebb4d;
+}
+
+.social-img {
+  margin: 20px 10px;
+  width: 10%;
+}
+
+.container{
+    padding: 2% 4%;
+    text-align: center;
+  }
 
 
 @media (max-width: 1028px) {
